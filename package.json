@@ -1,0 +1,62 @@
+{
+  "name": "poloLending",
+  "version": "0.1.0",
+  "description": "smart Poloniex lending bot - an automated engine for lending funds on Poloniex exchange",
+  "author": "sungjun <sungjun.hw@gmail.com>",
+  "license": "MIT",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sungjun001/pololending.git"
+  },
+  "keywords": [
+    "poloniex",
+    "bitcoin",
+    "btc",
+    "etherum",
+    "eth",
+    "lend",
+    "lending",
+    "bot",
+    "automatic",
+    "advisor",
+    "pololender",
+    "xmr",
+    "monero"
+  ],
+  "bugs": {
+    "url": "https://github.com/sungjun001/pololending/issues"
+  },
+  "engines": {
+    "node": "^7.7.4",
+    "npm": "^4.1.1"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "async": "^2.4.1",
+    "big.js": "^3.1.3",
+    "bitfinex": "^1.0.3",
+    "body-parser": "^1.17.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "^2.6.8",
+    "express": "^4.15.3",
+    "financejs": "^4.1.0",
+    "lodash": "^4.17.4",
+    "moment": "^2.18.1",
+    "morgan": "^1.8.2",
+    "node-env-file": "^0.1.8",
+    "nonce": "^1.0.3",
+    "poloniex-api-node": "^1.2.0",
+    "pug": "^2.0.0-rc.2",
+    "request": "^2.81.0",
+    "semver": "^5.3.0",
+    "sendgrid": "^5.1.1",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3",
+    "winston": "^2.3.1",
+    "winston-telegram": "^1.2.0"
+  },
+  "devDependencies": {}
+}
